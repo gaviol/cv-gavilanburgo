@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <title> CV</title>
+</head>
+<body>
+    <div class="header">
+       <h1>Diego Manuel Gavilan Burgo</h1>
+       <div class="parrafo">
+       <p>Soy una persona con una capacidad rápida de aprendizaje 
+        y una gran habilidad para desarrollarme en diferentes tecnologías.
+        Actualmente, estoy enfocado en el desarrollo en el campo de la robótica.
+        </p>
+       </div>
+        <img src="diego.jpg.jpeg" alt="foto de diego gavilan">
+
+    </div>
+    <section>
+        <h2>Experiencia laboral</h2>
+        <ul>
+            <li>
+                <strong>Divefull</strong> - video juegos<br>
+                Estaba para configurar los juegos de arcade y 
+                arreglaba la desconfiguracion del juego arcade
+            </li>
+            <li>
+                <strong>Frutica</strong> - FRUTICULTURA<br>
+                Estaba  para recojer las frutas y junta caja y poene en el tractor.
+            </li>
+        </ul>
+    
+        <ul>
+            <h2>Educacion</h2>
+        <li>
+            <strong>Escuela Basica Bautista</strong> - Tecnico en Informatica<br>
+            ANO 2008-2020
+        </li>
+        <li>
+            <strong>Univesidad Autonoma de Encarnacion</strong> - Lic Analisis de Informatica<br>
+            Actualmente cursando comence 2023 
+        </li>
+        </ul>
+    </section>
+    <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Trabajo en equpo</li>
+                <li>Manejo de Herramienta de SORTWARE </li>
+                <li>habil en video juego</li>
+                
+            </ul>
+        
+    </section>
+    
+
+    <section>  
+    
+    <h2>Contacto</h2>
+        
+            
+        <p>Email: <a href="mailto:diegoretoman@gmail.com">diegoretoman@gmail.com</a></p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/diego-gavilan-b90538288 " target="_blank">Diego</a></p>
+            
+           
+        </section>
+
+        <footer>
+            <p>GitHub: <a href="https://github.com/gaviol" target="_blank">github.com/gaviol</a></p>
+        </footer>
+    <section>
+        <h2>Proyectos</h2>
+        <ul>
+            <li>
+                <strong>RoDI</strong><br>
+                 <a href="rodi.html" target="_blank">Robot</a>
+         </li>
+            
+        </ul>
+    </section>
+    <section>
+        <button id="theme-toggle">Cambiar de tema</button>
+    </section>
+    <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        if (body.classList.contains('dark-theme')) {
+            body.style.backgroundColor = '#1e1e1e'; // Fondo oscuro
+            body.style.color = '#ffffff'; // Texto claro
+            themeToggle.textContent = 'Cambiar a tema claro';
+        } else {
+            body.style.backgroundColor = 'aqua'; // Fondo claro
+            body.style.color = '#06001e'; // Texto oscuro
+            themeToggle.textContent = 'Cambiar a tema oscuro';
+        }
+    });
+</script>
+
+    
+</body>
+</html>
+    
